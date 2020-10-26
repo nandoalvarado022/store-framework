@@ -25,10 +25,12 @@
       "preventVerticalStretch": "auto"
     },
     "children": [
+      "product-identifier.product",
       "product-price",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
     ]
-  },  
+  },
   "product-price": {
     "props": {
       "showSavings": true,
